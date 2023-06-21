@@ -1,7 +1,19 @@
-.navList{
+
+.headerWrapper{
     display: flex;
     align-items: center;
+    justify-content:first baseline;
+}
+.navList{
+    margin-left: 400px;
+    padding: 30px;
+    display: flex;
+    
     justify-content: space-evenly;
     list-style: none;
-    
+
+}
+
+.navList li{
+    margin: 20px;
 }

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
         
-      <nav>
+      <nav className={styles.headerWrapper}>
         <Image src="/bollo-guella-logo.png" width={100} height={100}/>
         <ul className={styles.navList}>
           <li>
