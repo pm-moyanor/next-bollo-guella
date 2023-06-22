@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import styles from "../styles/Menu.module.css"
 
 const Menu = () => {
   return (
-    <div>
-      <div>
+    <div className={styles.wrapper}>
+      <div className={styles.textWrapper}>
         <p>La panaderia</p>
         <p>
           Descubre nuestra selección de panes y pastelería disponible para
@@ -13,14 +14,14 @@ const Menu = () => {
         <button>Pedir ahora</button>
       </div>
       <div>
-        <ul>
+        <ul className={styles.menuList}>
           <li>
-            <Image src="/bollo-guella-logo.png" width={100} height={100} />
+            <Image src="/monika-grabkowska-mha2dvydACg-unsplash.jpg" width={400} height={420} />
             <h4>Pan rústico</h4>
             <p>Harina francesa, harina japonesa, huevo, manteca de Isigny</p>
           </li>
           <li>
-            <Image src="/bollo-guella-logo.png" width={100} height={100} />
+            <Image src="/yosep-sugiarto-1PEqqv4i2iM-unsplash.jpg" width={400} height={420} />
             <h4>Rollo de canela</h4>
             <p>Harina francesa, huevo, manteca de Isigny, canela</p>
           </li>

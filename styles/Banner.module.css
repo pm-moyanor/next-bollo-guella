@@ -3,29 +3,36 @@
    
     display: flex;
     justify-content: space-around;
+
 }
 
 .box h2{
-    font-size: 40px;
+    font-size: 62px;
+    font-weight: 400;
+    color: white;
     margin: 30px;
+
 }
 .wrapper{
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
- background-color: antiquewhite;
+ background-color: rgb(63, 60, 55);
 }
  
 .aboutWrapper{
    padding: 30px;
    display: flex;
-   justify-content: space-around;
+   justify-content: start;
+   align-items: end;
 
 }
 
 .aboutTextWrapper{
-    font-size: 16px;
-    padding: 20px;
+    font-size: 14px;
+    padding: 0px 20px ;
+    color: white;
     display: flex;
     align-items:flex-start;
     flex-direction: column;

@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.textWrapper {
+  margin: 10px 50px 20px 0px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textWrapper :first-child {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.textWrapper :nth-child(2) {
+  padding: 20px 0px;
+}
+
+.textWrapper button {
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+
+.menuList{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menuList li{
+    margin: 10px;
+}
+.menuList h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.menuList p{
+    font-size: 14px;
+    padding: 10px 0px ;
+    
+}

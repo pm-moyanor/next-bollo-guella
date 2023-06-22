@@ -10,8 +10,8 @@ const Banner = () => {
     <div className={styles.box}>
       <Image
         src="/gaelle-marcel-wPOV0W7ykxE-unsplash.jpg"
-        width={500}
-        height={600}
+        width={660}
+        height={750}
       />
      <div className={styles.wrapper}>
         <h2 style={{ fontFamily: "Montserrat, sans-serif" }}>Nuestra filosofía para hacer pan se basa en el equilibrio</h2>
@@ -20,12 +20,12 @@ const Banner = () => {
            
               <Image
               src="/jennifer-burk-wV1Q_vvc1GY-unsplash.jpg"
-              width={200}
-              height={280}
+              width={150}
+              height={220}
               />
               <div className={styles.aboutTextWrapper}>
-              <p>De la granja a la mesa</p>
-              <p>
+              <p style={{paddingBottom : 30}}>De la granja a la mesa</p>
+              <p style={{width: 300}}>
               Bollo Güella es una panadería de Mendoza que elabora panes y
               pastelería artesanal hecha a mano con técnicas tradicionales.
               </p>
