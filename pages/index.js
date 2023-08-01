@@ -2,12 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Montserrat } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import Header from './Header'
-import Menu from './Menu'
-import Banner from './Banner'
-import Hero from './Hero'
-import Blog from './Blog'
-import Contact from './Contact'
+import Header from '../components/Header'
+import Menu from '../components/Menu'
+import Banner from '../components/Banner'
+import Hero from '../components/Hero'
+import Blog from '../components/Blog'
+import Contact from '../components/Contact'
 
 const monserrat = Montserrat({ subsets: ['latin'] })
 
