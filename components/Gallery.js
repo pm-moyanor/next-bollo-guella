@@ -5,6 +5,8 @@ import styles from "../styles/Gallery.module.css";
 const Gallery = () => {
   return (
     <div className={styles["wrapper"]}>
+
+      <div>
       <Image
         src="/pexels-cottonbro-studio-4686837.jpg"
         width={380}
@@ -22,6 +24,8 @@ const Gallery = () => {
         width={380}
         height={500}
       />
+      </div>
+   
     </div>
   );
 };

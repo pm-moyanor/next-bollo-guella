@@ -30,7 +30,7 @@ export default function Home() {
         <Menu />
         <div className="window-box"></div>
          <Hero />
-         <div className="window-box"></div>
+      
         <Blog />
         <div className="window-box"></div>
         <Gallery />

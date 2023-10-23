@@ -19,10 +19,12 @@ const Hero = () => {
       
 
       />
-      <h2 className={styles.statement}>
-        Creemos que la calidad de nuestro pan depende de los ingredientes que
-        usemos
+      <div className={styles.statement}>
+      <h2 >
+      Descubre la magia de lo artesanal en cada ingrediente
       </h2>
+      </div>
+    
     </div>
   );
 };

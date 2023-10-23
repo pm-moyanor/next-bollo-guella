@@ -1,8 +1,22 @@
 .wrapper {
-  background-color: rgb(130, 128, 126);
-  display: flex;
-  flexwrap: nowrap;
+    background-color:white ;
+display: flex;
+align-items: center;
   height: 700px;
-  align-items: center;
+
   margin: 0;
+
+}
+
+
+.wrapper div{
+    margin-trim: 300px;
+    display: flex;
+    flexwrap: nowrap;
+
+    align-items: center;
+}
+
+.wrapper div *{
+    margin: 10px;
 }
