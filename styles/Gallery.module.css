@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: rgb(130, 128, 126);
+  display: flex;
+  flexwrap: nowrap;
+  height: 700px;
+  align-items: center;
+  margin: 0;
+}

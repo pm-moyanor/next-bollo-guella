@@ -4,7 +4,7 @@ import styles from "../styles/Menu.module.css"
 
 const Menu = () => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles["wrapper"]}>
       <div className={styles.textWrapper}>
         <p>La panaderia</p>
         <p>

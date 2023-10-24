@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     justify-content:first baseline;
+    background-color: white;
+  
 }
 .navList{
     margin-left: 400px;

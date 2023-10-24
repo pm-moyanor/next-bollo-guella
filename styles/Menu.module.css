@@ -1,6 +1,8 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+background-color: antiquewhite;
   padding: 40px 20px;
 }
 
@@ -28,23 +30,22 @@
   font-size: 12px;
 }
 
-.menuList{
-    display: flex;
-    flex-direction: row;
-
+.menuList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.menuList li{
-    margin: 10px;
+.menuList li {
+  margin: 10px;
 }
-.menuList h4{
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 0px;
+.menuList h4 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0px;
 }
 
-.menuList p{
-    font-size: 14px;
-    padding: 10px 0px ;
-    
+.menuList p {
+  font-size: 14px;
+  padding: 10px 0px;
 }

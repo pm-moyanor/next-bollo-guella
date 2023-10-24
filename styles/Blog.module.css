@@ -1,0 +1,59 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+  height: 500px;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
+.textWrapper {
+  margin: 10px 50px 20px 20px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textWrapper :first-child {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.textWrapper :nth-child(2) {
+  padding: 20px 0px;
+}
+
+.textWrapper button {
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+
+.postList {
+  width: 50%;
+  height: 350px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.horizontalRule {
+  width: 90%;
+ border-top: 1px solid black;
+margin-left: 10px;
+}
+
+
+.postList p {
+  padding: 5px;
+  margin: 10px;
+}
+
+.dateTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

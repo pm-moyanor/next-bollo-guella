@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 import styles from "../styles/Banner.module.css"
 import { Montserrat } from "@next/font/google";
 
@@ -7,13 +8,14 @@ import { Montserrat } from "@next/font/google";
 
 const Banner = () => {
   return (
-    <div className={styles.box}>
-      <Image
+    <div className={styles.container}>
+
+     
+     <Image
         src="/gaelle-marcel-wPOV0W7ykxE-unsplash.jpg"
-        width={660}
-        height={750}
+width={530} height={700} 
       />
-     <div className={styles.wrapper}>
+      <div className={styles.wrapper}>
         <h2 style={{ fontFamily: "Montserrat, sans-serif" }}>Nuestra filosofía para hacer pan se basa en el equilibrio</h2>
           <div>
             <div className={styles.aboutWrapper}>
