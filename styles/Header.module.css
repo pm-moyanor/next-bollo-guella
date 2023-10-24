@@ -2,12 +2,13 @@
 .headerWrapper{
     display: flex;
     align-items: center;
-    justify-content:first baseline;
-    background-color: white;
+    justify-content:space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
   
 }
 .navList{
-    margin-left: 400px;
+    margin-left: 100px;
     padding: 30px;
     display: flex;
     justify-content: space-evenly;

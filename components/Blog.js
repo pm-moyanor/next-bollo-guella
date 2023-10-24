@@ -14,7 +14,7 @@ const Blog = () => {
         <button>Leer más</button>
       </div>
 
-      <Image src="/drop-bread.avif" width={250} height={351} />
+      <Image src="/drop-bread.avif" width={270} height={361} />
       <div className={styles.postList}>
         <div className={styles.horizontalRule}></div>
         <div className={styles.dateTitle}>

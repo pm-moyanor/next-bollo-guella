@@ -6,19 +6,8 @@ import grainBread from "../public/victoria-shes-IUk1S6n2s0o-unsplash.jpg"
 
 const Hero = () => {
   return (
-    <div>
-      <Image
-        src={grainBread}
-        sizes="100vw"
-        // Make the image display full width
-        style={{
-          width: '100%',
-          height: 'auto',
-          padding: "30px"
-        }}
-      
-
-      />
+    <div className="wrapper">
+    
       <div className={styles.statement}>
       <h2 >
       Descubre la magia de lo artesanal en cada ingrediente

@@ -1,8 +1,8 @@
 .wrapper {
-    background-color:white ;
+    background-color: rgb(63, 60, 55);
 display: flex;
 align-items: center;
-  height: 700px;
+  height: 80vh;
 
   margin: 0;
 
@@ -10,11 +10,10 @@ align-items: center;
 
 
 .wrapper div{
-    margin-trim: 300px;
+ margin-left: 10px;
     display: flex;
-    flexwrap: nowrap;
-
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .wrapper div *{

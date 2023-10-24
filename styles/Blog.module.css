@@ -1,9 +1,9 @@
 .wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 50px 30px;
-  height: 600px;
+  height: 70vh;
   flex-wrap: wrap;
   background-color: antiquewhite;
 }
@@ -35,9 +35,11 @@
   width: 50%;
   height: 350px;
   margin-top: 20px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .horizontalRule {

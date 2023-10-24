@@ -16,12 +16,12 @@ const Menu = () => {
       <div>
         <ul className={styles.menuList}>
           <li>
-            <Image src="/monika-grabkowska-mha2dvydACg-unsplash.jpg" width={400} height={420} />
+            <Image src="/monika-grabkowska-mha2dvydACg-unsplash.jpg" width={480} height={480} />
             <h4>Pan rústico</h4>
             <p>Harina francesa, harina japonesa, huevo, manteca de Isigny</p>
           </li>
           <li>
-            <Image src="/yosep-sugiarto-1PEqqv4i2iM-unsplash.jpg" width={400} height={420} />
+            <Image src="/yosep-sugiarto-1PEqqv4i2iM-unsplash.jpg" width={480} height={480} />
             <h4>Rollo de canela</h4>
             <p>Harina francesa, huevo, manteca de Isigny, canela</p>
           </li>

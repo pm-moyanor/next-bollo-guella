@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,8 +12,7 @@ body {
 
 body {
   color: black;
-background-color: white;
-
+  background-color: white;
 }
 
 .background-image {
@@ -24,16 +21,25 @@ background-color: white;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/toa-heftiba-KZwp2IIyXmA-unsplash.jpg');
+
+  background-image: url("/toa-heftiba-KZwp2IIyXmA-unsplash.jpg");
+
   background-size: cover;
   background-position: center;
-  z-index: -1; /* To keep it behind other content */
+  z-index: -2;
 }
 
-.window-box{
-  height:500px;
-  background-color:transparent;
+.overlay{
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.238);
+  z-index: -1;
+}
 
+.window-box {
+  height: 550px;
+  background-color: transparent;
 }
 
 a {

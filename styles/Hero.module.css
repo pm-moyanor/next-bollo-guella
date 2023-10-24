@@ -1,19 +1,25 @@
-.statement{
 
-
-    width:100%;
-background-color: rgba(58, 46, 3, 0.429) ;
-    padding: 80px 30px;
-    margin: 200px 300px;
+.wrapper{
+    height: 100vh;
+  margin-right: 30px;
   display: flex;
-    height: 500px;
+  justify-content: flex-end
+}
+.statement {
+
+  background-color: rgba(58, 46, 3, 0.429);
+  padding: 80px 30px;
+  margin: 200px 30px 200px 300px;
+  display: flex;
+  height: 500px;
+  align-items: center;
 }
 
-.statement h2{
-    font-size: 62px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    width: 60%;
-    margin-left: 50px;
-  align-items: center;
+.statement h2 {
+  font-size: 62px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  width: 60%;
+  margin-left: 30px;
+ 
 }
