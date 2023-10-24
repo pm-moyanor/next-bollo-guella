@@ -4,6 +4,7 @@
   width: 100vw;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding-left: 30px;
   justify-content: space-around;
   background-color: rgb(63, 60, 55);
   z-index: 1;
@@ -26,11 +27,11 @@
 }
 .wrapper {
   height: 86%;
-  margin-left: 40px;
+  margin-left: 10px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .wrapper img {

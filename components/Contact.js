@@ -21,7 +21,6 @@ const Contact = () => {
             placeholder="Correo electrónico"
             style={{
               height: 50,
-              backgroundColor: "white",
               border: "1px solid black",
               width: 250,
               padding: 10,

@@ -12,6 +12,7 @@ body {
 
 body {
   color: black;
+  scroll-behavior: smooth;
   background-color: white;
 }
 
@@ -45,6 +46,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+a[href^="#"] {
+  scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: dark) {

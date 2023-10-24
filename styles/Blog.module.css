@@ -1,9 +1,9 @@
 .wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 50px 30px;
-  height: 70vh;
+  height: 90vh;
   flex-wrap: wrap;
   background-color: antiquewhite;
 }
@@ -32,8 +32,8 @@
 }
 
 .postList {
-  width: 50%;
-  height: 350px;
+  width: 800px;
+  height: 450px;
   margin-top: 20px;
   margin-bottom: 10px;
   display: flex;

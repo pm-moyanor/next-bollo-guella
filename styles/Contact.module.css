@@ -7,7 +7,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding-top: 50px;
-  
+  background-color: antiquewhite;
 }
 
 .addressBlock h3{
@@ -28,12 +28,17 @@
 .newsletterBlock p{
     font-size: 14px;
     padding: 20px 0px;
+ 
 }
 
 .newsletterBlock form{
     padding: 20px 0px;
    
 
+}
+
+.newsletterBlock form input{
+    background-color: antiquewhite;
 }
 
 
