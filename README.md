@@ -2,11 +2,11 @@
 
 # README
 
-## Bollo Guella - Artisan Bread Bakery
+## Bollo Güella - Artisan Bread Bakery
 
-![Bollo Guella Bakery](bollo-guella-logo.png)
+![Bollo Güella Bakery](bollo-guella-logo.png)
 
-This is the README file for the website of "Bollo Guella," an artisan bread bakery located in Mendoza, Argentina. The website has been built using Next.js and Framer Motion for animations, providing an immersive and interactive experience for visitors. The website includes the following key sections:
+"Bollo Güella" is an artisan bread bakery located in Mendoza, Argentina. The website has been built using Next.js and Framer Motion for animations, providing an immersive and interactive experience for visitors. The website includes the following key sections:
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This is the README file for the website of "Bollo Guella," an artisan bread bake
 
 ## About
 
-The "About" section provides an introduction to "Bollo Guella." It includes information about the bakery's values, and commitment to creating the finest artisanal bread products. Customers can learn about the founder's journey and passion for baking.
+The "About" section provides an introduction to "Bollo Güella." It includes information about the bakery's values and commitment to creating the finest artisanal bread products. 
 
 ## Blog
 
@@ -24,7 +24,7 @@ The "Blog" section is where the bakery shares its expertise in bread-making. It 
 
 ## Contact
 
-The "Contact" section is where customers can get in touch with "Bollo Guella." It includes a contact form where visitors can send inquiries, provide feedback, or place orders. Additionally, contact information, including the bakery's physical address, phone number, and email address, is provided for customers who prefer traditional communication methods.
+The "Contact" section is where customers can get in touch with "Bollo Güella." It includes a contact form where visitors can send inquiries, provide feedback, or place orders. Additionally, contact information, including the bakery's physical address, phone number, and email address, is provided for customers who prefer traditional communication methods.
 
 ## Technologies Used
 
@@ -68,8 +68,8 @@ For deployment, it is recommended to follow the deployment guidelines for Next.j
 
 ## Author
 
-This website was created with love by Paula Moyano for "Bollo Guella." If you have any questions or need further assistance, feel free to contact pm.moyanor@gmail.com
+This website was created with love by Paula Moyano for "Bollo Güella." If you have any questions or need further assistance, feel free to contact pm.moyanor@gmail.com
 
 Happy baking and enjoy your experience with "Bollo Guella!" 🍞🥖
 
-![Bollo Guella Logo](bollo-guella-logo.png)
+![Bollo Güella Logo](bollo-guella-logo.png)
