@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+# README
+
+## Bollo Guella - Artisan Bread Bakery
+
+![Bollo Guella Bakery](url_to_bakery_image.jpg)
+
+This is the README file for the website of "Bollo Guella," an artisan bread bakery located in Mendoza, Argentina. The website has been built using Next.js and Framer Motion for animations, providing an immersive and interactive experience for visitors. The website includes the following key sections:
+
+## Table of Contents
+
+- [About](#about)
+- [Blog](#blog)
+- [Contact](#contact)
+
+## About
+
+The "About" section provides an introduction to "Bollo Guella." It includes information about the bakery's values, and commitment to creating the finest artisanal bread products. Customers can learn about the founder's journey and passion for baking.
+
+## Blog
+
+The "Blog" section is where the bakery shares its expertise in bread-making. It features a collection of articles, recipes, and tips related to bread and baking. Customers can explore the blog to discover new recipes, learn about different types of bread, and gain insights into the world of baking.
+
+## Contact
+
+The "Contact" section is where customers can get in touch with "Bollo Guella." It includes a contact form where visitors can send inquiries, provide feedback, or place orders. Additionally, contact information, including the bakery's physical address, phone number, and email address, is provided for customers who prefer traditional communication methods.
+
+## Technologies Used
+
+The website was built using the following technologies:
+
+- **Next.js**: Next.js is a powerful and efficient framework for building React applications. It offers server-side rendering, routing, and a great developer experience.
+
+- **Framer Motion**: Framer Motion is a library for creating fluid animations and transitions in React applications. It enhances user engagement by adding delightful animations to the user interface.
 
 ## Getting Started
 
-First, run the development server:
+To set up this project locally for development or testing, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. **Clone the Repository**: Begin by cloning this repository to your local machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone https://github.com/your-repo-url.git
+   ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+2. **Install Dependencies**: Navigate to the project folder and install the required dependencies using npm or yarn:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+   ```
+   npm install
+   # or
+   yarn install
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. **Run the Development Server**: Start the development server to preview the website locally. It will be accessible at [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Open in Browser**: Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For deployment, it is recommended to follow the deployment guidelines for Next.js applications. You can deploy the website on platforms like Vercel, Netlify, or any other hosting service that supports Node.js applications.
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This website was created with love by Paula Moyano for "Bollo Guella." If you have any questions or need further assistance, feel free to contact pm.moyanor@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy baking and enjoy your experience with "Bollo Guella!" 🍞🥖
+
+![Bollo Guella Logo](url_to_logo_image.jpg)
