@@ -1,0 +1,26 @@
+
+.blogPost {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dateTitle {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dateTitle p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .blogPost img {
+    border-radius: 5px;
+  }
+  

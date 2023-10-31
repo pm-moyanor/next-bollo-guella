@@ -8,9 +8,9 @@ const Banner = () => {
   return (
     <div className={styles.container}>
       <motion.div
-        initial={{ x: -200, opacity: 0 }} // Initial position and opacity
-        animate={{ x: 0, opacity: 1 }} // Animation target position and opacity
-        transition={{ duration: 1 }} // Animation duration in seconds
+        initial={{ x: -200, opacity: 0 }} 
+        animate={{ x: 0, opacity: 1 }} 
+        transition={{ duration: 1 }} 
       >
         <Image
           src="/gaelle-marcel-wPOV0W7ykxE-unsplash.jpg"
@@ -22,9 +22,9 @@ const Banner = () => {
 
       <div className={styles.wrapper}>
       <motion.div
-        initial={{ y: -200, opacity: 0 }} // Initial position and opacity
-        animate={{ y: 0, opacity: 1 }} // Animation target position and opacity
-        transition={{ duration: 1 }} // Animation duration in seconds
+        initial={{ y: -200, opacity: 0 }} 
+        animate={{ y: 0, opacity: 1 }} 
+        transition={{ duration: 1 }} 
       >
         <h2 style={{ fontFamily: "Montserrat, sans-serif" }}>
           Nuestra filosofía para hacer pan se basa en el equilibrio
@@ -33,9 +33,9 @@ const Banner = () => {
         <div>
           <div className={styles.aboutWrapper}>
             <motion.div
-              initial={{ x:200, opacity: 0 }} // Initial position and opacity
-              animate={{x:0, opacity: 1 }} // Animation target position and opacity
-              transition={{ duration: 1}} // Animation duration in seconds
+              initial={{ x:200, opacity: 0 }}
+              animate={{x:0, opacity: 1 }}
+              transition={{ duration: 1}}
             >
               <Image
                 src="/jennifer-burk-wV1Q_vvc1GY-unsplash.jpg"

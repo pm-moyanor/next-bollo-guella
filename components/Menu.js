@@ -18,9 +18,9 @@ const Menu = () => {
       <div>
         <ul className={styles.menuList}>
         <motion.div
-              initial={{ x:300, opacity: 0 }} // Initial position and opacity
-              animate={{x:0, opacity: 1 }} // Animation target position and opacity
-              transition={{ duration: 0.6}} // Animation duration in seconds
+              initial={{ x:300, opacity: 0 }} 
+              whileInView={{ x: 0, opacity: 1 }} 
+              transition={{ duration: 0.6}} 
             >
           <li>
             <Image src="/monika-grabkowska-mha2dvydACg-unsplash.jpg" width={450} height={480} />
@@ -29,9 +29,9 @@ const Menu = () => {
           </li>
           </motion.div>
           <motion.div
-              initial={{ x:200, opacity: 0 }} // Initial position and opacity
-              animate={{x:0, opacity: 1 }} // Animation target position and opacity
-              transition={{ duration: 0.6}} // Animation duration in seconds
+              initial={{ x:200, opacity: 0 }} 
+              whileInView={{ x: 0, opacity: 1 }} 
+              transition={{ duration: 0.6}}
             >
           <li>
             <Image src="/yosep-sugiarto-1PEqqv4i2iM-unsplash.jpg" width={450} height={480} />

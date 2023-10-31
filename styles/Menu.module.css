@@ -4,8 +4,9 @@
   align-items: center;
   height: 90vh;
   flex-wrap: wrap;
-  background-color: antiquewhite;
+  background-color: rgb(248, 229, 204);
   padding: 100px 20px;
+  margin: 0px 30px;
 }
 
 .textWrapper {
@@ -27,8 +28,9 @@
 
 .textWrapper button {
   height: 50px;
-  background-color: black;
+  background-color: rgb(144, 73, 31);
   color: white;
+  border: none;
   font-size: 12px;
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"; // Import Link from Next.js
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles/Blog.module.css";
@@ -16,7 +17,7 @@ const Blog = () => {
       </div>
       <motion.div
         initial={{ x: 300, opacity: 0 }} 
-        animate={{ x: 0, opacity: 1 }} 
+        whileInView={{ x: 0, opacity: 1 }} 
         transition={{ duration: 1 }} 
       >
         <Image src="/drop-bread.avif" width={350} height={450} style={{ marginTop:"15px"}}/>
@@ -31,22 +32,25 @@ const Blog = () => {
           <div className={styles.horizontalRule}></div>
           <div className={styles.dateTitle}>
             <p>17/7/20</p>
-            <p>Bollo Güella fue votada como la mejor panadería local </p>
-            <Image src="/arrow-right_9847468.png" width={20} height={20} />
+            <Link href="/post1"> 
+            Bollo Güella fue votada como la mejor panadería local
+            </Link>
           </div>
 
           <div className={styles.horizontalRule}></div>
           <div className={styles.dateTitle}>
             <p>17/7/20</p>
-            <p>Nuestra receta de croissant clásico </p>
-            <Image src="/arrow-right_9847468.png" width={20} height={20} />
+            <Link href="/post2"> 
+              Nuestra receta de croissant clásico
+            </Link>
           </div>
 
           <div className={styles.horizontalRule}></div>
           <div className={styles.dateTitle}>
             <p>17/7/20</p>
-            <p>Cómo empezar a hacer pan </p>
-            <Image src="/arrow-right_9847468.png" width={17} height={20} />
+            <Link href="/post3"> 
+              Cómo empezar a hacer pan
+            </Link>
           </div>
 
           <div className={styles.horizontalRule}></div>

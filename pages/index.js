@@ -9,7 +9,9 @@ import Hero from "../components/Hero";
 import Blog from "../components/Blog";
 import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
-import grainBread from "../public/pexels-rdne-stock-project-8964024.jpg"
+import grainBread from "../public/pexels-rdne-stock-project-8964024.jpg";
+import { motion } from "framer-motion";
+import VideoComponent from "../components/VideoComponent";
 
 const monserrat = Montserrat({ subsets: ["latin"] });
 
@@ -32,19 +34,8 @@ export default function Home() {
         <div className="window-box"></div>
         <Menu />
 
-        <div className="window-box"></div>
-        <Image
-        src="/victoria-shes-IUk1S6n2s0o-unsplash.jpg" width={700} height={700}
-        sizes="100vw"
-       
-        style={{
-          width: '100%',
-          height: '100vh',
-          padding: "30px"
-        }}
-      
+        <VideoComponent />
 
-      />
         <Hero />
 
         <Blog />

@@ -8,12 +8,14 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
 }
 
 body {
   color: black;
   scroll-behavior: smooth;
   background-color: white;
+
 }
 
 .background-image {
@@ -34,12 +36,13 @@ body {
   width: 100%;
   position: fixed;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.238);
+  background-color: rgba(81, 67, 54, 0.762);
   z-index: -1;
+  
 }
 
 .window-box {
-  height: 550px;
+  height: 450px;
   background-color: transparent;
 }
 

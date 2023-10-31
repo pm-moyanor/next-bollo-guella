@@ -17,27 +17,11 @@ const Contact = () => {
         </p>
         <form>
           <input
+            className={styles.input}
             type="text"
             placeholder="Correo electrónico"
-            style={{
-              height: 50,
-              border: "1px solid black",
-              width: 250,
-              padding: 10,
-            }}
           ></input>
-          <button
-            style={{
-              height: 50,
-              backgroundColor: "rgb(136, 64, 28)",
-              border: "1px solid black",
-              width: 110,
-              padding: 10,
-              marginLeft: 20,
-            }}
-          >
-            Registrarse
-          </button>
+          <button className={styles.button}>Registrarse</button>
         </form>
       </div>
     </footer>

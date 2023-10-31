@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
         
-      <nav className={styles.headerWrapper}>
+        <nav className={`${styles.headerWrapper} ${styles.fixedHeader}`}>
         <Image src="/bollo-guella-logo.png" width={100} height={100}/>
         <ul className={styles.navList}>
           <li>
@@ -16,7 +16,7 @@ const Header = () => {
             <a href="#menu">Menu</a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
           <li>
             <a href="#contact">Contacto</a>

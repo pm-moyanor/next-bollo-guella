@@ -1,0 +1,28 @@
+/* components/VideoComponent.module.css */
+.backgroundVideo {
+    position: relative;
+    overflow: hidden;
+    margin: 0px 30px;
+  }
+  
+  .backgroundVideo video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .statement {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    width: 60%;
+    text-align: left;
+  }
+  
+  .statement h2 {
+    font-size: 8rem;
+    margin-left: 40px;
+    font-weight: 800;
+    color: rgba(143, 69, 26, 0.922);
+  }
+  

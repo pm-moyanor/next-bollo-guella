@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   width: 100vw;
   flex-direction: row;
@@ -8,6 +8,7 @@
   justify-content: space-around;
   background-color: rgb(63, 60, 55);
   z-index: 1;
+  margin-top: 5rem;
 }
 
 .container {
