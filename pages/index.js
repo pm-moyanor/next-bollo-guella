@@ -9,7 +9,7 @@ import Hero from "../components/Hero";
 import Blog from "../components/Blog";
 import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
-import grainBread from "../public/pexels-rdne-stock-project-8964024.jpg";
+
 import { motion } from "framer-motion";
 import VideoComponent from "../components/VideoComponent";
 

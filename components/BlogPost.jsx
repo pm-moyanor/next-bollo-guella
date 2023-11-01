@@ -1,18 +1,24 @@
-
 import React from "react";
-import Image from "next/image";
 import styles from "../styles/BlogPost.module.css";
 
 const BlogPost = ({ date, title, imageSrc, content }) => {
   return (
     <div className={styles.blogPost}>
-      <div className={styles.dateTitle}>
-  
-        <h2>{title}</h2>
-        <p>{date}</p>
-        <p>{content}</p>
+      <div className={styles.info}>
+        <div className={styles.titleDate}>
+          <h2 className={styles.blogTitle}>{title}</h2>
+          <p className={styles.blogDate}>{date}</p>
+        </div>
+        <span className={styles.divider}/>
+        <div className={styles.blogContent}>
+   
+          {content}
+        </div>
       </div>
-      <Image src={imageSrc} width={350} height={200} />
+
+      <div className={styles.image}>
+        <img src={imageSrc} />
+      </div>
     </div>
   );
 };

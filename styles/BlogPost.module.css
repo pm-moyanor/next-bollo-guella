@@ -1,26 +1,72 @@
-
 .blogPost {
-    margin: 20px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .dateTitle {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .dateTitle p {
-    margin: 0;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .blogPost img {
-    border-radius: 5px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(63, 60, 55);
+
+  margin: 30px;
+  width: 80%;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+  width: 60%;
+}
+.info * {
+  color: white;
+}
+
+.info h2 {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 15px;
+  line-height: 1.5em;
+}
+
+.info li {
+  font-size: 16px;
+  font-weight: 200;
+
+  line-height: 1.5em;
+}
+
+.info h3 {
+  margin: 20px 0px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0px 10px 20px 0px;
+}
+
+.titleDate p {
+  font-size: 14px;
+}
+
+.divider {
+  height: 0.5px;
+
+  background-color: white;
+  width: 100%;
+}
+.image {
+  height: 100%;
+width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
