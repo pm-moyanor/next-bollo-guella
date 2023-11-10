@@ -3,8 +3,6 @@
 ## Bollo Güella - Artisan Bread Bakery
 
 
-![Screenshot](bollo-guella/Bollo_Güella.mp4)
-
 "Bollo Güella" is an artisan bread bakery located in Mendoza, Argentina. The website has been built using Next.js and Framer Motion for animations, providing an immersive and interactive experience for visitors. The website includes the following key sections:
 
 ## Table of Contents
