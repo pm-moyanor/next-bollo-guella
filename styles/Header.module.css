@@ -1,57 +1,95 @@
 .headerWrapper {
- 
-    height: 100px;
-    right: 0;
-    background-color: rgb(255, 255, 255);
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
+  height: 80px;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
 
-  }
-  
-  .navList {
-    margin-left: 100px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-  }
-  
-  .navList li {
-    margin: 20px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    position: relative;
-  }
-  
-  .navList li:hover::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: rgba(143, 69, 26, 0.922);
-  }
-  
+.navList {
+  margin-left: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
 
-  .fixedHeader {
-/* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0; */
-    background-color: rgb(255, 255, 255);
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-  }
-  
-  .hiddenHeader {
-    transform: translateY(-100%);
-    transition: transform 0.5s ease-in-out;
-  }
-  
+.navList li {
+  margin: 20px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.navList li:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(143, 69, 26, 0.922);
+}
+
+.fixedHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.hiddenHeader {
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.mobileMenuButton {
+  position: fixed;
+  z-index: 20;
+  top: 2cqmax;
+  right: 20px;
+  color: black;
+  width: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+.mobileMenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+}
+
+.mobileMenu.navList {
+  background-color: rgba(143, 69, 26, 0.922);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: fit-content;
+  width: 100%;
+  padding: 10px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.mobileMenu.navList li {
+  width: 100%;
+  text-align: end;
+  margin: 10px;
+}
