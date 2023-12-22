@@ -1,12 +1,11 @@
-
-.wrapper{
-    height: 100vh;
+.wrapper {
+  height: 100vh;
   margin-right: 30px;
   display: flex;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
-.statement {
 
+.statement {
   background-color: rgba(58, 46, 3, 0.429);
   padding: 80px 30px;
   margin: 300px 30px 200px 300px;
@@ -19,7 +18,21 @@
   font-size: 62px;
   font-weight: 400;
   color: rgb(255, 255, 255);
-  width: 60%;
+  width: 80%;
   margin-left: 30px;
- 
+
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .statement {
+    padding: 40px 15px;
+    margin: 100px 15px;
+  }
+
+  .statement h2 {
+    font-size: 40px;
+    width: 90%;
+    margin-left: 15px;
+  }
 }

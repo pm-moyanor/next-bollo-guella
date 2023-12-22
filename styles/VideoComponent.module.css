@@ -1,28 +1,45 @@
-
 .backgroundVideo {
-    position: relative;
-    overflow: hidden;
-    margin: 0px 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 30px;
+}
+
+.backgroundVideo video {
+  width: 100%;
+  height: auto;
+}
+
+.statement {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  width: 60%;
+  text-align: left;
+}
+
+.statement h2 {
+  font-size: 8rem;
+  line-height: 80%;
+  margin-left: 40px;
+
+  font-weight: 800;
+  color: rgba(116, 60, 27, 0.922);
+}
+
+
+@media screen and (max-width: 768px) {
+  .backgroundVideo {
+    margin: 0 10px;
   }
-  
-  .backgroundVideo video {
-    width: 100%;
-    height: auto;
-  }
-  
+
   .statement {
-    position: absolute;
-    top: 50%;
-    left: 30px;
-    transform: translateY(-50%);
-    width: 60%;
-    text-align: left;
+    width: 80%; 
+    left: 15px; 
   }
-  
+
   .statement h2 {
-    font-size: 8rem;
-    margin-left: 40px;
-    font-weight: 800;
-    color: rgba(143, 69, 26, 0.922);
+    font-size: 4.5rem; 
+    margin-left: 20px; 
   }
-  
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import styles from "../styles/Hero.module.css";
 import { motion } from "framer-motion";
 const Hero = () => {

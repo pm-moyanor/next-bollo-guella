@@ -5,6 +5,24 @@ import { motion } from "framer-motion";
 import styles from "../styles/Blog.module.css";
 
 const Blog = () => {
+  const posts = [
+    {
+      date: "17/7/20",
+      title: "Bollo Güella fue votada como la mejor panadería local",
+      link: "/post1",
+    },
+    {
+      date: "17/7/20",
+      title: "Nuestra receta de croissant clásico",
+      link: "/post2",
+    },
+    {
+      date: "17/7/20",
+      title: "Cómo empezar a hacer pan",
+      link: "/post3",
+    },
+  ];
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.textWrapper}>
@@ -15,47 +33,39 @@ const Blog = () => {
         </p>
         <button>Leer más</button>
       </div>
+
+      <div className={styles.imageListWrapper}>
       <motion.div
         initial={{ x: 300, opacity: 0 }} 
         whileInView={{ x: 0, opacity: 1 }} 
         transition={{ duration: 1 }} 
       >
-        <Image src="/drop-bread.avif" width={350} height={450} style={{ marginTop:"15px"}}/>
+        <Image src="/drop-bread.avif" width={250} height={350}  />
       </motion.div>
 
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }} 
         transition={{ duration: 1.5 }}
+        className={styles.postList} 
       >
-        <div className={styles.postList}>
+ 
+          {posts.map((post, index) => (
+            < div key={index} className={styles.postWrapper}>
+              <div className={styles.horizontalRule}></div>
+              <div className={styles.dateTitle}>
+                <p>{post.date}</p>
+                <Link href={post.link}>
+                  {post.title}
+                </Link>
+              </div>
+            </div>
+          ))}
           <div className={styles.horizontalRule}></div>
-          <div className={styles.dateTitle}>
-            <p>17/7/20</p>
-            <Link href="/post1"> 
-            Bollo Güella fue votada como la mejor panadería local
-            </Link>
-          </div>
-
-          <div className={styles.horizontalRule}></div>
-          <div className={styles.dateTitle}>
-            <p>17/7/20</p>
-            <Link href="/post2"> 
-              Nuestra receta de croissant clásico
-            </Link>
-          </div>
-
-          <div className={styles.horizontalRule}></div>
-          <div className={styles.dateTitle}>
-            <p>17/7/20</p>
-            <Link href="/post3"> 
-              Cómo empezar a hacer pan
-            </Link>
-          </div>
-
-          <div className={styles.horizontalRule}></div>
-        </div>
+    
       </motion.div>
+      </div>
+      
     </div>
   );
 };

@@ -33,7 +33,7 @@ export default function Home() {
         <Banner />
         <div className="window-box"></div>
         <Menu />
-
+        <div className="window-box"></div>
         <VideoComponent />
 
         <Hero />

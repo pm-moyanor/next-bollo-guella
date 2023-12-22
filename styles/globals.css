@@ -14,7 +14,7 @@ body {
   color: black;
   scroll-behavior: smooth;
   background-color: white;
-
+scroll-behavior: smooth;
 }
 
 .background-image {
@@ -35,13 +35,13 @@ body {
   width: 100%;
 
   height: 100%;
-  background-color: rgba(81, 67, 54, 0.762);
+  background-color: rgba(49, 48, 47, 0.963);
   z-index: -1;
   
 }
 
 .window-box {
-  height: 450px;
+  height: 400px;
   background-color: transparent;
 }
 
@@ -74,4 +74,10 @@ a[href^="#"] {
 .blogContainer h1{
   font-size: 68px;
   color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+  .window-box{
+    height: 200px;
+  }
 }

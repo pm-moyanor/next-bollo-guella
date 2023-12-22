@@ -3,18 +3,19 @@
   justify-content: space-evenly;
   align-items: center;
   height: 90vh;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   background-color: rgb(248, 229, 204);
-  padding: 100px 20px;
+  padding: 10px;
   margin: 0px 30px;
 }
 
 .textWrapper {
-  margin: 10px 50px 20px 0px;
-  width: 25%;
+  margin: 10px 20px 0px;
+  width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
+  max-width: 500px;
 }
 
 .textWrapper :first-child {
@@ -27,17 +28,20 @@
 }
 
 .textWrapper button {
-  height: 50px;
+  height: 40px;
   background-color: rgb(144, 73, 31);
   color: white;
   border: none;
+  width: 120px;
   font-size: 12px;
 }
 
 .menuList {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+
+  height: 100%;
 }
 
 .menuList li {
@@ -53,4 +57,46 @@
 .menuList p {
   font-size: 14px;
   padding: 10px 0px;
+  width: 80%;
+}
+
+.image {
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1040px) {
+  .wrapper {
+    flex-wrap: wrap;
+    border: 1px solid red;
+    justify-content: left;
+  }
+
+  .textWrapper {
+    width: 100%;
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin: 0px 10px;
+  }
+  .menuList li {
+    width: 100%;
+  }
+  .menuList h4 {
+    font-size: 16px;
+  }
+
+  .menuList p {
+    font-size: 12px;
+  }
 }
