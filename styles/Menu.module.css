@@ -6,7 +6,7 @@
   flex-wrap: nowrap;
   background-color: rgb(248, 229, 204);
   padding: 10px;
-  margin: 0px 30px;
+  margin: 0px 10px;
 }
 
 .textWrapper {
@@ -39,7 +39,7 @@
 .menuList {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
 
   height: 100%;
 }
@@ -75,7 +75,7 @@
 @media screen and (max-width: 1040px) {
   .wrapper {
     flex-wrap: wrap;
-    border: 1px solid red;
+ 
     justify-content: left;
   }
 
@@ -87,10 +87,28 @@
 
 @media screen and (max-width: 768px) {
   .wrapper {
-    margin: 0px 10px;
+    padding: 30px 0px;
+    height: auto;
+    justify-content: center;
+  }
+  .textWrapper {
+    width: 60%;
+    align-items: start;
+    margin-bottom: 40px;
+  }
+  .textWrapper > * {
+    font-size: 14px;
+  }
+  .textWrapper button {
+    width: 100%;
+  }
+  .menuList {
+    flex-direction: column;
   }
   .menuList li {
     width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
   }
   .menuList h4 {
     font-size: 16px;
@@ -98,5 +116,6 @@
 
   .menuList p {
     font-size: 12px;
+    padding: 0;
   }
 }
