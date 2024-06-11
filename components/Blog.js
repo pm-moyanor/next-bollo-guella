@@ -26,12 +26,14 @@ const Blog = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.textWrapper}>
-        <p>Detrás de la cocina</p>
+      <h5>Detrás de la cocina</h5>
         <p>
           Lee nuestro blog para acceder a recetas y noticias y para conocer
           mejor lo que sucede en nuestra cocina.
         </p>
+        <a href="/blog"> 
         <button>Leer más</button>
+        </a>
       </div>
 
       <div className={styles.imageListWrapper}>
@@ -40,7 +42,10 @@ const Blog = () => {
         whileInView={{ x: 0, opacity: 1 }} 
         transition={{ duration: 1 }} 
       >
-        <Image src="/drop-bread.avif" width={250} height={350}  />
+        <Image src="/drop-bread.avif" 
+        width={250} 
+        height={350}
+        alt="drop bread"  />
       </motion.div>
 
       <motion.div

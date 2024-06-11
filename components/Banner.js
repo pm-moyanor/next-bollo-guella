@@ -17,6 +17,7 @@ const Banner = () => {
           src="/gaelle-marcel-wPOV0W7ykxE-unsplash.jpg"
           layout="fill" 
           objectFit="cover"
+          alt="picture of dough"
    
         />
       </motion.div>
@@ -27,9 +28,11 @@ const Banner = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
+          <div className={styles.bannerTitle}>
           <h2 style={{ fontFamily: "Montserrat, sans-serif" }}>
             Nuestra filosofía para hacer pan se basa en el equilibrio
           </h2>
+          </div>
         </motion.div>
         <div>
           <div className={styles.aboutWrapper}>
@@ -41,9 +44,10 @@ const Banner = () => {
             >
               <Image
                 src="/jennifer-burk-wV1Q_vvc1GY-unsplash.jpg"
-               height={200}
-               width={100}
+                height={200}
+                width={100}
                 layout="responsive"
+                alt="picture of bread"
               />
             </motion.div>
             <div className={styles.aboutTextWrapper}>

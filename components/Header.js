@@ -29,7 +29,11 @@ const Header = () => {
   return (
     <div>
       <nav className={`${styles.headerWrapper}`}>
-        <Image src="/bollo-guella-logo.png" width={80} height={80} />
+      <a href="/#about"><Image src="/bollo-guella-logo.png"
+      className = "header-logo"
+      width={80} 
+      height={80}
+      alt="company logo"/></a>
         {isLargeScreen ? (
           <ul className={`${styles.navList}`}>
             <li>
