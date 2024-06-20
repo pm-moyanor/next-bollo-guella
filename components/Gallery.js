@@ -30,7 +30,7 @@ const Gallery = () => {
           transition={{duration:1, delay: 0.3 * index/1.3 }}
         >
           <li style={{ listStyle: "none" }}>
-            <Image src={image} width={330} height={470} />
+            <Image src={image} width={330} height={470} alt="pictures of food" />
           </li>
         </motion.div>
       ))}

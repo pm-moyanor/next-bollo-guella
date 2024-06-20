@@ -1,6 +1,5 @@
 .wrapper {
   display: grid;
-
   grid-template-columns: 1fr 2fr;
   align-items: center;
   justify-items: center;
@@ -13,27 +12,34 @@
 .textWrapper {
   margin: 20px;
   min-width: 250px;
+  min-height: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
 }
 
-.textWrapper :first-child {
-  font-size: 14px;
+.textWrapper h5 {
+  font-size: 24px;
   padding-bottom: 10px;
+  align-self: center; 
 }
 
 .textWrapper :nth-child(2) {
   padding: 20px 0px;
-  font-size: 16px;
+
+}
+.textWrapper p {
+  font-size: 20px;;
 }
 
 .textWrapper button {
-  height: 40px;
+  height: 55px;
+  width:350px;
   background-color: rgb(144, 73, 31);
   color: white;
   border: none;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .imageListWrapper {
@@ -54,13 +60,11 @@
 }
 .postWrapper {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-
+  grid-template-rows: 0.3fr 1fr;
   width: 100%;
-
   height: 100%;
 }
-
+.postWrapper
 .postWrapper > * {
   width: 100%;
   height: fit-content;
@@ -71,7 +75,7 @@
 }
 .dateTitle {
   display: flex;
-  font-size: 14px;
+  font-size: 1.1em;
   width: 100%;
   height: 100%;
 }
@@ -84,21 +88,31 @@
   .wrapper {
     grid-template-columns: 1fr;
     column-gap: 10px;
-
     padding-bottom: 30px;
   }
   .textWrapper {
-    width: 60%;
-    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .textWrapper h5{
+    margin-top:10px;
+    font-size: 26px;
+  }
+  .textWrapper button{
+    width: 350px;
+    height: 55px;
   }
 
   .textWrapper :nth-child(2) {
     padding: 10px 0px;
-    font-size: 14px;
+    font-size: 22px;
+    font-weight: 300;
   }
   .imageListWrapper {
     width: 80%;
-    margin-top: 30px;
+    
   }
   .imageListWrapper:first-of-type(div) {
     margin-bottom: 20px;
@@ -111,17 +125,31 @@
     height: auto;
   }
   .textWrapper {
-    width: 70%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .textWrapper button{
+    width: 130px;
+    height: 45px;
+    /* font-size: 20px; */
   }
   .imageListWrapper {
+    width: 100%;
     flex-direction: column;
     align-items: center;
   }
   .imageListWrapper > * {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 
   .horizontalRule:last-of-type {
     display: none;
   }
+  .imageListWrapper img{
+    width:300px;
+    height:450px;
+    margin-bottom:30px;
+  }
+ 
 }

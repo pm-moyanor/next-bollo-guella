@@ -8,16 +8,16 @@ const Menu = () => {
   return (
     <div id="menu" className={styles["wrapper"]}>
       <div className={styles.textWrapper}>
-        <p>La panaderia</p>
+      <h4>La anaderia</h4>
         <p>
           Descubre nuestra selección de panes y pastelería disponible para
           llevar y para envío a domicilio.
         </p>
-        <button>
           <Link href="https://www.pedidosya.com.ar/home-page" target="_blank">
+        <button>
             Pedir ahora
-          </Link>
         </button>
+          </Link>
       </div>
       <div>
         <ul className={styles.menuList}>
@@ -28,7 +28,8 @@ const Menu = () => {
           >
             <li>
               <div className={styles.image}>
-                <img src="/monika-grabkowska-mha2dvydACg-unsplash.jpg" />
+                <img src="/monika-grabkowska-mha2dvydACg-unsplash.jpg"
+                alt="Pan rustico" />
               </div>
 
               <h4>Pan rústico</h4>
@@ -42,7 +43,8 @@ const Menu = () => {
           >
             <li>
               <div className={styles.image}>
-                <img src="/yosep-sugiarto-1PEqqv4i2iM-unsplash.jpg" />
+                <img src="/yosep-sugiarto-1PEqqv4i2iM-unsplash.jpg" 
+                alt = "Rollo de canela"/>
               </div>
               <h4>Rollo de canela</h4>
               <p>Harina francesa, huevo, manteca de Isigny, canela</p>

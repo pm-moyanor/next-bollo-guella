@@ -1,23 +1,33 @@
 .wrapper {
-    background-color: rgb(63, 60, 55);
-display: flex;
-align-items: center;
+  background-color: rgb(63, 60, 55);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
   height: fit-content;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding:50px 0px;
-
-
-}
-
-
-.wrapper div{
- margin-left: 10px;
-    display: flex;
-    align-items: center;
-
-}
-
-.wrapper li{
-    margin: 10px;
-}
+  
+  }
+  
+  
+  .wrapper div{
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+  
+  }
+  
+  .wrapper li{
+      margin: 10px;
+  }
+  @media screen and (max-width: 1076px){
+    .wrapper{
+      display: flex;
+      justify-content: center;
+    }
+    .wrapper div{
+      margin-left: 0px;
+    }
+  }
+  
